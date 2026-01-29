@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <strong>Author:</strong> <a href="https://codeberg.org/funbinet">funbinet</a> • <strong>GitHub:</strong> <a href="https://github.com/funbinet">github.com/funbinet</a> • <strong>License:</strong> Proprietary
+  <strong>Codeberg:</strong> <a href="https://codeberg.org/funbinet">codeberg.org/funbinet</a> • <strong>GitHub:</strong> <a href="https://github.com/funbinet">github.com/funbinet</a> • <strong>License:</strong> Proprietary
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ HANZO organizes blockchain security operations into 8 comprehensive phases align
 - Dependency analysis
 - Security pattern recognition
 
-**Tools**: Slither, Mythril, Solhint, and custom analyzers
+**Tools**: Slither, Mythril, Solhint, Aderyn, and Solc-select.
 
 ### 2. Transaction Analysis (DETECT)
 **Purpose**: Monitor and analyze blockchain transactions for suspicious activity.
@@ -90,7 +90,7 @@ HANZO organizes blockchain security operations into 8 comprehensive phases align
 - Transaction volume monitoring
 - Flash loan attack detection
 
-**Tools**: Custom transaction analyzers, Etherscan API integration, and blockchain explorers
+**Tools**: Cast (Foundry), Txplain, Hoppy, and Web3-CLI.
 
 ### 3. DeFi Protocol Assessment (IDENTIFY)
 **Purpose**: Evaluate DeFi protocols for security risks and vulnerabilities.
@@ -102,7 +102,7 @@ HANZO organizes blockchain security operations into 8 comprehensive phases align
 - Yield farming security checks
 - Cross-protocol interaction analysis
 
-**Tools**: Custom DeFi analyzers, Slither for DeFi, and protocol-specific scanners
+**Tools**: Halmos, Scribble, Anvil (Forking Mode), and Echidna.
 
 ### 4. Vulnerability Scanning (DETECT)
 **Purpose**: Automated scanning for known smart contract vulnerabilities.
@@ -114,7 +114,7 @@ HANZO organizes blockchain security operations into 8 comprehensive phases align
 - Front-running vulnerability assessment
 - Timestamp dependency analysis
 
-**Tools**: Mythril, Slither, Oyente, and custom vulnerability scanners
+**Tools**: Mythril, Slither, Manticore, Oyente, and Medusa.
 
 ### 5. Network Monitoring (DETECT)
 **Purpose**: Real-time monitoring of blockchain networks and nodes.
@@ -126,7 +126,7 @@ HANZO organizes blockchain security operations into 8 comprehensive phases align
 - Peer-to-peer network analysis
 - Blockchain fork detection
 
-**Tools**: Custom network monitors, blockchain node APIs, and network analysis tools
+**Tools**: Blocknative CLI, Polycli, Prometheus (with Node Exporters), and Ethtool.
 
 ### 6. Incident Response (RESPOND)
 **Purpose**: Rapid containment and response to blockchain security incidents.
@@ -138,7 +138,7 @@ HANZO organizes blockchain security operations into 8 comprehensive phases align
 - Multi-signature wallet management
 - Automated alert systems
 
-**Tools**: Custom incident response modules, blockchain wallet integrations, and alert systems
+**Tools**: OpenZeppelin Sentinel CLI, Gnosis Safe CLI (gnosis-py), and Flashbots (mev-share-rs).
 
 ### 7. Blockchain Forensics (RESPOND)
 **Purpose**: Evidence collection and analysis for blockchain investigations.
@@ -150,7 +150,7 @@ HANZO organizes blockchain security operations into 8 comprehensive phases align
 - Historical data analysis
 - Evidence preservation and chain of custody
 
-**Tools**: Custom forensic analyzers, blockchain explorers, and data extraction tools
+**Tools**: Maltego (with CaseFile), TShark, Hoppy, and Bitcoin-blockchain-analysis-tool.
 
 ### 8. Recovery & Hardening (RECOVER)
 **Purpose**: Restore systems and implement security improvements.
@@ -162,7 +162,7 @@ HANZO organizes blockchain security operations into 8 comprehensive phases align
 - Multi-signature implementation
 - Security best practice enforcement
 
-**Tools**: Custom hardening modules, upgrade frameworks, and security configuration tools
+**Tools**: Forge (Foundry), Solc-select, OpenZeppelin Upgrades Plugins, and Hardhat-deploy.
 
 ---
 
