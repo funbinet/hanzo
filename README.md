@@ -19,7 +19,10 @@
 </p>
 
 ---
-
+<p align="center">
+  <img src="hanzo1.png" alt="HANZO" width="300"/>
+</p>
+---
 ## Overview
 
 **HANZO** is a specialized blockchain and smart contract security suite that integrates leading security tools like Mythril, Slither, and custom DeFi protocol analyzers into a unified PyQt6 GUI interface. It provides automated contract auditing, transaction analysis, and decentralized application security assessments, designed for blockchain developers, auditors, and security professionals defending against smart contract vulnerabilities and DeFi exploits.
