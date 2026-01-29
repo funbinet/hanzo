@@ -21,7 +21,7 @@
 ---
 
 <p align="center">
-  <img src="hanzo1.png" alt="HANZO" width="300"/>
+  <img src="hanzo1.png" alt="HANZO" width="1260"/>
 </p>
 
 ---
